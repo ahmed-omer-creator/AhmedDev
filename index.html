@@ -295,10 +295,10 @@
 
   <section id="contact">
     <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="5" placeholder="Your Message"></textarea>
+    <form action="/succ" method="post">
+      <input type="text" placeholder="Your Name" name="userName" required>
+      <input type="email" placeholder="Your Email" name="Email" required>
+      <input rows="5" placeholder="Your Message" name="Message" required></input>
       <button type="submit">Send</button>
     </form>
     <div class="social">
