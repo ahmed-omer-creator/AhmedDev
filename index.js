@@ -25,7 +25,7 @@ mg.connect("mongodb+srv://ahmsha337:Ahmed_Top@customerrsdb.nmtyixt.mongodb.net/a
     
 })
 
-app.post("/succ",(req,res) => {
+app.post("http://localhost:4450/",(req,res) => {
     console.log(req.body);
     const Mydata = new messagedt(req.body)
     Mydata.save()
